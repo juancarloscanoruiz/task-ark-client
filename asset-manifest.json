@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/task-ark-client/static/js/main.071d3616.chunk.js",
+    "main.js.map": "/task-ark-client/static/js/main.071d3616.chunk.js.map",
+    "runtime-main.js": "/task-ark-client/static/js/runtime-main.bbd46e2e.js",
+    "runtime-main.js.map": "/task-ark-client/static/js/runtime-main.bbd46e2e.js.map",
+    "static/css/2.0e871ea0.chunk.css": "/task-ark-client/static/css/2.0e871ea0.chunk.css",
+    "static/js/2.1e589ae6.chunk.js": "/task-ark-client/static/js/2.1e589ae6.chunk.js",
+    "static/js/2.1e589ae6.chunk.js.map": "/task-ark-client/static/js/2.1e589ae6.chunk.js.map",
+    "static/js/3.2644a745.chunk.js": "/task-ark-client/static/js/3.2644a745.chunk.js",
+    "static/js/3.2644a745.chunk.js.map": "/task-ark-client/static/js/3.2644a745.chunk.js.map",
+    "index.html": "/task-ark-client/index.html",
+    "static/css/2.0e871ea0.chunk.css.map": "/task-ark-client/static/css/2.0e871ea0.chunk.css.map",
+    "static/js/2.1e589ae6.chunk.js.LICENSE.txt": "/task-ark-client/static/js/2.1e589ae6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bbd46e2e.js",
+    "static/css/2.0e871ea0.chunk.css",
+    "static/js/2.1e589ae6.chunk.js",
+    "static/js/main.071d3616.chunk.js"
+  ]
+}
