@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/task-ark-client/static/js/main.071d3616.chunk.js",
-    "main.js.map": "/task-ark-client/static/js/main.071d3616.chunk.js.map",
+    "main.js": "/task-ark-client/static/js/main.c6484e2c.chunk.js",
+    "main.js.map": "/task-ark-client/static/js/main.c6484e2c.chunk.js.map",
     "runtime-main.js": "/task-ark-client/static/js/runtime-main.bbd46e2e.js",
     "runtime-main.js.map": "/task-ark-client/static/js/runtime-main.bbd46e2e.js.map",
     "static/css/2.0e871ea0.chunk.css": "/task-ark-client/static/css/2.0e871ea0.chunk.css",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.bbd46e2e.js",
     "static/css/2.0e871ea0.chunk.css",
     "static/js/2.1e589ae6.chunk.js",
-    "static/js/main.071d3616.chunk.js"
+    "static/js/main.c6484e2c.chunk.js"
   ]
 }
