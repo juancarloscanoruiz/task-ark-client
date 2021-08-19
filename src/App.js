@@ -1,7 +1,11 @@
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import { Home } from './views/Home';
+import { TasksChart } from './views/TasksChart'
 import styled from 'styled-components';
 import { colors } from './utils/colors';
+import "antd/dist/antd.css";
+import { ListCompletedTasks } from './views/ListCompletedTasks';
 
 function App() {
 
@@ -27,6 +31,11 @@ function App() {
     margin-bottom: 16px;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    color: ${colors.black};
+
+    &:hover {
+      color: ${colors.yellow};
+    }
   `;
   const LinksContainer = styled.div`
     margin-top: 24px;
@@ -45,18 +54,20 @@ function App() {
                 <CustomLink to="/">
                   Inicio
                 </CustomLink>
-                <CustomLink to="/tasks">
+                <CustomLink to="/completed">
                   Historial de tareas
                 </CustomLink>
-                <CustomLink to="my-productivity">
+                <CustomLink to="/productivity">
                   Mi productividad
                 </CustomLink>
               </LinksContainer>
             </CustomSider>
             <Content>
                 <Switch>
-                  <Route exact path="/" render={Home} />
-                </Switch>
+                  <Route exact path="/" component={Home} />
+                  <Route exact path="/productivity" component={TasksChart} />
+                  <Route exact path="/completed" component={ListCompletedTasks} />
+              </Switch>
             </Content>
         </FlexContainer>
     </Router>
