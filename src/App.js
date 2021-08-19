@@ -51,22 +51,22 @@ function App() {
         <FlexContainer>
             <CustomSider style={{maxWidth: 'auto'}}>
               <LinksContainer>
-                <CustomLink to="/">
+                <CustomLink to="/task-ark-client/">
                   Inicio
                 </CustomLink>
-                <CustomLink to="/completed">
+                <CustomLink to="/task-ark-client/completed">
                   Historial de tareas
                 </CustomLink>
-                <CustomLink to="/productivity">
+                <CustomLink to="/task-ark-client/productivity">
                   Mi productividad
                 </CustomLink>
               </LinksContainer>
             </CustomSider>
             <Content>
                 <Switch>
-                  <Route exact path="/" component={Home} />
-                  <Route exact path="/productivity" component={TasksChart} />
-                  <Route exact path="/completed" component={ListCompletedTasks} />
+                  <Route exact path="/task-ark-client/" component={Home} />
+                  <Route exact path="/task-ark-client/productivity" component={TasksChart} />
+                  <Route exact path="/task-ark-client/completed" component={ListCompletedTasks} />
               </Switch>
             </Content>
         </FlexContainer>
